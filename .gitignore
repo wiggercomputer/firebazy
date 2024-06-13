@@ -1,0 +1,26 @@
+# Ignore the example domains file
+domains.txt
+
+# Ignore local environment files
+.env
+
+# Ignore editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore test files
+test/
+__tests__/
+*.test.js
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore node_modules just in case
+node_modules/
+
