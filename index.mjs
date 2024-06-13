@@ -107,9 +107,6 @@ const checkForFirebase = async (domain) => {
   return { domain, firebaseFiles, status };
 };
 
-/**
- * The main function that processes command line arguments and performs domain checks.
- */
 const main = async () => {
   const args = arg({
     "--file": String,
